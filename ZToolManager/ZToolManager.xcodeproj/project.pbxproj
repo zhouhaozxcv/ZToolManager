@@ -14,6 +14,7 @@
 		040D59E7246698DD009271D1 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D59E6246698DD009271D1 /* UIView+Util.m */; };
 		040D59EC2466997F009271D1 /* UIDevice+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D59E82466997E009271D1 /* UIDevice+Util.m */; };
 		040D59ED2466997F009271D1 /* UIApplication+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D59E92466997E009271D1 /* UIApplication+Util.m */; };
+		040D59F124669A5F009271D1 /* SimulateIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D59EF24669A5F009271D1 /* SimulateIDFA.m */; };
 		D05C86FA1E5BF38D009C9E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05C86F91E5BF38D009C9E31 /* main.m */; };
 		D05C86FD1E5BF38D009C9E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05C86FC1E5BF38D009C9E31 /* AppDelegate.m */; };
 		D05C87001E5BF38D009C9E31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05C86FF1E5BF38D009C9E31 /* ViewController.m */; };
@@ -62,6 +63,8 @@
 		040D59E92466997E009271D1 /* UIApplication+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Util.m"; sourceTree = "<group>"; };
 		040D59EA2466997E009271D1 /* UIDevice+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Util.h"; sourceTree = "<group>"; };
 		040D59EB2466997F009271D1 /* UIApplication+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Util.h"; sourceTree = "<group>"; };
+		040D59EF24669A5F009271D1 /* SimulateIDFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulateIDFA.m; sourceTree = "<group>"; };
+		040D59F024669A5F009271D1 /* SimulateIDFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulateIDFA.h; sourceTree = "<group>"; };
 		D05C86F51E5BF38D009C9E31 /* ZToolManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZToolManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05C86F91E5BF38D009C9E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D05C86FB1E5BF38D009C9E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +118,7 @@
 		040D59D624669021009271D1 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				040D59EE24669A5F009271D1 /* SimulateIDFA */,
 				040D59DB246690A4009271D1 /* TRTool.h */,
 				040D59D724669032009271D1 /* TRStatic.h */,
 				040D59D82466906C009271D1 /* UIColor+Util.h */,
@@ -133,6 +137,15 @@
 				040D59E82466997E009271D1 /* UIDevice+Util.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		040D59EE24669A5F009271D1 /* SimulateIDFA */ = {
+			isa = PBXGroup;
+			children = (
+				040D59F024669A5F009271D1 /* SimulateIDFA.h */,
+				040D59EF24669A5F009271D1 /* SimulateIDFA.m */,
+			);
+			path = SimulateIDFA;
 			sourceTree = "<group>";
 		};
 		D05C86EC1E5BF38D009C9E31 = {
@@ -343,6 +356,7 @@
 				D05C87371E5C2CD6009C9E31 /* UIImage+Blur.m in Sources */,
 				040D59EC2466997F009271D1 /* UIDevice+Util.m in Sources */,
 				D05C87001E5BF38D009C9E31 /* ViewController.m in Sources */,
+				040D59F124669A5F009271D1 /* SimulateIDFA.m in Sources */,
 				040D59E124669322009271D1 /* UIImage+Util.m in Sources */,
 				D05C87341E5C2AD2009C9E31 /* UIColor+ExtendedAttribute.m in Sources */,
 				040D59DE246691C8009271D1 /* NSString+Util.m in Sources */,

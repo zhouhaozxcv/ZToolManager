@@ -21,4 +21,10 @@
     return [UIColor colorWithRed:red green:green blue:blue alpha:opacity];
 }
 
++ (UIColor *)randomColor{
+    int R = (arc4random() % 256) ;
+    int G = (arc4random() % 256) ;
+    int B = (arc4random() % 256) ;
+    return [UIColor colorWithRed:R/255.0f green:G/255.0f blue:B/255.0f alpha:1.0f];
+}
 @end

@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)colorWithHex:(long)hexColor;
 + (UIColor *)colorWithHex:(long)hexColor alpha:(float)opacity;
 
++ (UIColor *)randomColor;
+
 @end
 
 NS_ASSUME_NONNULL_END

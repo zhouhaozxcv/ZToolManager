@@ -18,9 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// UIColor 转UIImage 带alpha
 + (UIImage *)imageWithColor:(UIColor *)color alpha:(CGFloat)alpha;
 
-///随机颜色
-+ (UIColor *)randomColor;
-
 @end
 
 NS_ASSUME_NONNULL_END
